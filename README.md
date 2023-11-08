@@ -1,70 +1,194 @@
-# Getting Started with Create React App
+<a name="hello-react-front-end"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 📗 Table of Contents
 
-## Available Scripts
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Tutorial](#tutorial)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-In the project directory, you can run:
+<!-- PROJECT DESCRIPTION -->
 
-### `npm start`
+# 📖 [hello-react-front-end] <a name="about-project"></a>
+hello-react-front-end, is a way to greet someone in a very difficult way
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Link to the back-end repository [here](https://github.com/EmiLoKiJu/hello-rails-back-end)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠 Built With <a name="built-with"></a>
 
-### `npm test`
+### Tech Stack <a name="tech-stack"></a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<details>
+  <li><a href="https://redux.js.org/introduction/installation">React-redux</a></li>
+  <li><a href="https://axios-http.com/docs/intro">axios</a></li>
+</details>
 
-### `npm run build`
+<!-- Features -->
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Key Features <a name="key-features"></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React-redux**
+- **axios**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### `npm run eject`
+## 💻 Getting Started <a name="getting-started"></a>
+<!-- https://github.com/EmiLoKiJu/hello-react-front-end -->
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To get a local copy of this project and run it in your computer, follow these steps.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Prerequisites
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+In order to run this project you need:
+- node and yarn installed on your system.
+- npx version 7.1.0 or later.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Tutorial <a name="tutorial"></a>
 
-## Learn More
+This project was build in windows 10, using vscode.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To create this project run the following command:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+$ npx create-react-app hello-react-front-end
+```
 
-### Code Splitting
+For installing react-router-dom, react-redux, @reduxjs/toolkit and axios, run the following:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
+npm install react-router-dom
+npm install react-redux
+npm install @reduxjs/toolkit
+npm install axios
+```
 
-### Analyzing the Bundle Size
+The file structure for react-redux is in the javascript folder, as it follows:
+```
+|-- src/
+|   |-- components/
+|   |-- redux/
+|   |   |-- store.js
+|   |-- App.js
+|   |-- index.js
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Then, customize as you like to follow your requirements
 
-### Making a Progressive Web App
+### Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+To get a local copy up and running follow these simple example steps.
 
-### Advanced Configuration
+Clone this repository in the desired folder:
+```
+cd my-folder
+git clone https://github.com/EmiLoKiJu/hello-react-front-end.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Install
 
-### Deployment
+To install this project:
+```
+cd hello-react-front-end
+code .
+npm install
+```
+### Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+To run the project, run the following command:
+```
+npm start
+```
 
-### `npm run build` fails to minify
+Go to http://localhost:5000/ and see it working.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Run tests
+
+Not implemented tests
+
+<p align="right">(<a href="#hello-react-front-end">back to top</a>)</p>
+
+<!-- AUTHORS -->
+## 👥 Authors <a name="authors"></a>
+
+👤 **Gabriel Rozas**
+- GitHub: [@EmiLoKiJu](https://github.com/EmiLoKiJu)
+- Twitter: [@GabrielRozas12](https://twitter.com/GabrielRozas12)
+- LinkedIn: [grozas](https://www.linkedin.com/in/grozas/)
+
+<p align="right">(<a href="#hello-react-front-end">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- Nothing so far
+
+<p align="right">(<a href="#hello-react-front-end">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+I welcome contributions to enhance the functionality and user experience of the Morse_Translator project. If you have any ideas, suggestions, or bug reports, feel free to open an issue or submit a pull request.
+
+If you'd like to contribute to this project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them with descriptive commit messages.
+4. Push your changes to your forked repository.
+5. Submit a pull request to the main repository, explaining your changes in detail.
+
+Please adhere to the coding conventions and guidelines specified in the project.
+
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](../../issues).
+
+<p align="right">(<a href="#hello-react-front-end">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project give it a star ⭐️
+
+<p align="right">(<a href="#hello-react-front-end">back to top</a>)</p>
+
+<!-- FAQ -->
+
+## ❓ FAQ <a name="faq"></a>
+
+- **Can I use the project for any purpose?**
+
+  - Yes, you can use this files for anything you need
+
+- **Do I need to ask for permission?**
+
+  - No need to ask for permission.
+
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+** I would like to thank to Microverse for giving this inspiring project **
+
+<p align="right">(<a href="#hello-react-front-end">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.

@@ -31,18 +31,17 @@ const Greeting = ({ message, getGreetings }) => {
   }
 
   return (
-    <div>
-      {token === null && (
+    <div className='container'>
+      {token === null ? (
         <div>
           <h3>You are not logged in.</h3>
           <Link to="/">Login</Link>
         </div>
-      )}
-      <h1>{message}</h1>
-      {token !== null && (
+      ) : (
         <div>
+          <h1>{message}</h1>
           <form onSubmit={handleLogout}>
-            <input type="submit" value="Logout"/>
+            <input type="submit" value="Logout" />
           </form>
         </div>
       )}

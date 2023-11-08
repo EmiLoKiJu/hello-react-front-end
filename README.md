@@ -1,4 +1,4 @@
-<a name="hello--rails-react"></a>
+<a name="hello-react-front-end"></a>
 
 # 📗 Table of Contents
 
@@ -21,8 +21,8 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [hello--rails-react] <a name="about-project"></a>
-hello--rails-react, is a way to greet someone in a very difficult way
+# 📖 [hello-react-front-end] <a name="about-project"></a>
+hello-react-front-end, is a way to greet someone in a very difficult way
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -31,31 +31,8 @@ hello--rails-react, is a way to greet someone in a very difficult way
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
-    <li><a href="https://rubyonrails.org/">Ruby on Rails</a></li>
     <li><a href="https://redux.js.org/introduction/installation">React-redux</a></li>
     <li><a href="https://axios-http.com/docs/intro">axios</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Ruby on Rails</summary>
-  <ul>
-    <li><a href="https://guides.rubyonrails.org/getting_started.html#what-is-rails-questionmark">Ruby on Rails introduction</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="">N/A</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
 </details>
 
@@ -63,18 +40,13 @@ hello--rails-react, is a way to greet someone in a very difficult way
 
 ### Key Features <a name="key-features"></a>
 
-- **ROR**
-- **Devise**
-- **cancancan**
-- **Rspec**
-- **Capybara**
 - **React-redux**
 - **axios**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
-<!-- https://github.com/EmiLoKiJu/hello--rails-react -->
+<!-- https://github.com/EmiLoKiJu/hello-react-front-end -->
 
 To get a local copy of this project and run it in your computer, follow these steps.
 
@@ -124,27 +96,20 @@ To get a local copy up and running follow these simple example steps.
 Clone this repository in the desired folder:
 ```
 cd my-folder
-git clone https://github.com/EmiLoKiJu/hello--rails-react.git
+git clone https://github.com/EmiLoKiJu/hello-react-front-end.git
 ```
 
 ### Install
 
 To install this project:
 ```
-cd hello--rails-react
+cd hello-react-front-end
 code .
 bundle install
 ```
 ### Usage
 
-To run the project, make sure you configured your database correctly, then execute the following command:
-```sh
-  rails db:create
-  rails db:migrate
-  rails db:seed
-```
-
-After the database is set up, run the following command:
+To run the project, run the following command:
 ```
 foreman start -f Procfile.dev
 ```
@@ -165,7 +130,7 @@ Then check the link of the rails server (it should have changed to http://localh
 
 Not implemented tests
 
-<p align="right">(<a href="#hello--rails-react">back to top</a>)</p>
+<p align="right">(<a href="#hello-react-front-end">back to top</a>)</p>
 
 <!-- AUTHORS -->
 ## 👥 Authors <a name="authors"></a>
@@ -175,7 +140,7 @@ Not implemented tests
 - Twitter: [@GabrielRozas12](https://twitter.com/GabrielRozas12)
 - LinkedIn: [grozas](https://www.linkedin.com/in/grozas/)
 
-<p align="right">(<a href="#hello--rails-react">back to top</a>)</p>
+<p align="right">(<a href="#hello-react-front-end">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
@@ -183,7 +148,7 @@ Not implemented tests
 
 - Nothing so far
 
-<p align="right">(<a href="#hello--rails-react">back to top</a>)</p>
+<p align="right">(<a href="#hello-react-front-end">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
@@ -204,7 +169,7 @@ Please adhere to the coding conventions and guidelines specified in the project.
 Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](../../issues).
 
-<p align="right">(<a href="#hello--rails-react">back to top</a>)</p>
+<p align="right">(<a href="#hello-react-front-end">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
@@ -212,7 +177,7 @@ Feel free to check the [issues page](../../issues).
 
 If you like this project give it a star ⭐️
 
-<p align="right">(<a href="#hello--rails-react">back to top</a>)</p>
+<p align="right">(<a href="#hello-react-front-end">back to top</a>)</p>
 
 <!-- FAQ -->
 
@@ -233,10 +198,10 @@ If you like this project give it a star ⭐️
 
 ** I would like to thank to Microverse for giving this inspiring project **
 
-<p align="right">(<a href="#hello--rails-react">back to top</a>)</p>
+<p align="right">(<a href="#hello-react-front-end">back to top</a>)</p>
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE) licensed.

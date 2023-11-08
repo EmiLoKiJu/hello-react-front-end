@@ -43,26 +43,37 @@ const Login = () => {
   }
 
   return (
-    <div>
-      {token === null && (
+    <div className='container'>
+      {token === null ? (
         <form onSubmit={handleSubmit}>
-        <input type="text" name="username" value={username} placeholder="username" onChange={(e) => setUsername(e.target.value)} />
-        <input type="password" name="password" value={password} placeholder="password" onChange={(e) => setPassword(e.target.value)}/>
-        <input type="submit" value="Login"/>
-      </form>
-      )}
-      {token !== null && (
+          <input
+            type="text"
+            name="username"
+            value={username}
+            placeholder="username"
+            onChange={(e) => setUsername(e.target.value)}
+          />
+          <input
+            type="password"
+            name="password"
+            value={password}
+            placeholder="password"
+            onChange={(e) => setPassword(e.target.value)}
+          />
+          <input type="submit" value="Login" />
+        </form>
+      ) : (
         <div>
           <h3>You are already logged in.</h3>
           <form onSubmit={handleLogout}>
-            <input type="submit" value="Logout"/>
+            <input type="submit" value="Logout" />
           </form>
         </div>
       )}
-      <h3>(Deffault username: username1)</h3>
-      <h3>(Deffault password: password1)</h3>
+      <h3>(Default username: username1)</h3>
+      <h3>(Default password: password1)</h3>
     </div>
-  )
+  );
 }
 
 export default Login;

@@ -31,11 +31,8 @@ Link to the back-end repository [here](https://github.com/EmiLoKiJu/hello-rails-
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://redux.js.org/introduction/installation">React-redux</a></li>
-    <li><a href="https://axios-http.com/docs/intro">axios</a></li>
-  </ul>
+  <li><a href="https://redux.js.org/introduction/installation">React-redux</a></li>
+  <li><a href="https://axios-http.com/docs/intro">axios</a></li>
 </details>
 
 <!-- Features -->
@@ -55,8 +52,6 @@ To get a local copy of this project and run it in your computer, follow these st
 ### Prerequisites
 
 In order to run this project you need:
-- Ruby 3.0.1 or above
-- Ruby on rails 7.0.8 or above
 - node and yarn installed on your system.
 - npx version 7.1.0 or later.
 
@@ -107,26 +102,16 @@ To install this project:
 ```
 cd hello-react-front-end
 code .
-bundle install
+npm install
 ```
 ### Usage
 
 To run the project, run the following command:
 ```
-foreman start -f Procfile.dev
+npm start
 ```
 
 Go to http://localhost:5000/ and see it working.
-
-You can also run this using 2 terminals:
-
-In one, run:
-rails server
-
-In the other, run:
-yarn build --watch
-
-Then check the link of the rails server (it should have changed to http://localhost:3000/)
 
 ### Run tests
 

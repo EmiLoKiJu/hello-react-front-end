@@ -1,8 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { getLogin } from '../redux/authentication/authenticationSlice';
-import { setToken, clearToken } from '../redux/authentication/authenticationSlice';
 import { useNavigate } from 'react-router-dom';
+import { getLogin, setToken, clearToken } from '../redux/authentication/authenticationSlice';
 
 const Login = () => {
   const dispatch = useDispatch();
@@ -16,34 +15,32 @@ const Login = () => {
     if (storedToken) {
       dispatch(setToken(storedToken));
     }
-  }, [dispatch, setToken]);
+  }, [dispatch]);
 
   const handleSubmit = (event) => {
     event.preventDefault();
     const user = username;
     const pass = password;
-  
+
     dispatch(getLogin({ user, pass, token })).then((resultAction) => {
       if (resultAction.payload) {
         localStorage.setItem('token', resultAction.payload);
         navigate('/greeting');
       } else {
-        console.log('Login failed');
-        console.log(token);
         window.location.reload();
       }
     });
-  }
+  };
 
   const handleLogout = (event) => {
     event.preventDefault();
     dispatch(clearToken());
     localStorage.removeItem('token');
     window.location.reload();
-  }
+  };
 
   return (
-    <div className='container'>
+    <div className="container">
       {token === null ? (
         <form onSubmit={handleSubmit}>
           <input
@@ -74,6 +71,6 @@ const Login = () => {
       <h3>(Default password: password1)</h3>
     </div>
   );
-}
+};
 
 export default Login;

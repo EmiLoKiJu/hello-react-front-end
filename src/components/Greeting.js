@@ -13,7 +13,7 @@ const Greeting = ({ message, getGreetings }) => {
     if (storedToken) {
       dispatch(setToken(storedToken));
     }
-  }, [dispatch, setToken]);
+  }, [dispatch]);
 
   const { token } = useSelector((store) => store.login);
 
@@ -28,10 +28,10 @@ const Greeting = ({ message, getGreetings }) => {
     dispatch(clearToken());
     localStorage.removeItem('token');
     window.location.reload();
-  }
+  };
 
   return (
-    <div className='container'>
+    <div className="container">
       {token === null ? (
         <div>
           <h3>You are not logged in.</h3>

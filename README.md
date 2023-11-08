@@ -24,6 +24,8 @@
 # 📖 [hello-react-front-end] <a name="about-project"></a>
 hello-react-front-end, is a way to greet someone in a very difficult way
 
+Link to the back-end repository [here](https://github.com/EmiLoKiJu/hello-rails-back-end)
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
